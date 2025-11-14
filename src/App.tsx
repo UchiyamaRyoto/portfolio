@@ -666,7 +666,7 @@ function PortfolioMain() {
                 <div className="relative h-20 w-20 flex-none overflow-hidden rounded-full border border-slate-600 bg-gradient-to-br from-slate-200 via-slate-400 to-slate-700">
                   <div className="absolute inset-0 flex items-center justify-center text-lg font-bold text-slate-900/90">
                     <img
-                      src="/user.ico"
+                      src="user.ico"
                       alt="Uchiyama Ryoto"
                       className="h-full w-full object-cover"
                     />
