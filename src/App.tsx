@@ -14,7 +14,8 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Separator } from "@/components/ui/separator";
-import { useEffect, useState, CSSProperties } from "react";
+import { useEffect, useState } from "react";
+import type { CSSProperties } from "react";
 
 import {
   ArrowRight,
@@ -166,8 +167,26 @@ const TIMELINE = [
 ];
 
 /* ===== data: works ===== */
+type WorkItem = {
+  id: string;
+  title: string;
+  titleClassName?: string;
+  badgeText: string;
+  badgeVariant?: "default" | "secondary" | "destructive" | "outline";
+  badgeClassName?: string;
+  description: string;
+  body: string;
+  detailLabel: string;
+  detailText: string;
+  backLabel: string;
+  backText: string;
+  footerLabel?: string;
+  footerHref?: string;
+  footerIcon?: "external" | "pen";
+  footerClassName?: string;
+};
 
-const WORKS = [
+const WORKS: WorkItem[] = [
   {
     id: "travelweever",
     title: "TravelWeever",
