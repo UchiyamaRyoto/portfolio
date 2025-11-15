@@ -131,7 +131,7 @@ const devopsSkills = [
   },
   {
     name: "Vercel/Netlify",
-    caption: "フロントのデプロイ/CD・環境変数管理・サーバレス関数が扱える。",
+    caption: "フロントのデプロイ/CD・環境変数管理・サーバーレス関数が扱える。",
     percent: 40,
   },
   {
@@ -553,7 +553,7 @@ function PortfolioMain() {
           <div className="flex items-center gap-2">
             <span className="inline-flex h-2.5 w-2.5 animate-pulse rounded-full bg-cyan-400 shadow-[0_0_12px_rgba(34,211,238,0.9)]" />
             <span className="text-sm font-semibold tracking-wide">
-              Uchiyama Ryoto
+              Uchiyama Ryoto's Portfolio
             </span>
           </div>
           <nav className="hidden items-center gap-6 text-xs text-slate-300 md:flex">
@@ -566,8 +566,8 @@ function PortfolioMain() {
             <a href="#skills" className="hover:text-cyan-300">
               SKILLS
             </a>
-            <a href="#profile" className="hover:text-cyan-300">
-              PROFILE
+            <a href="#timeline" className="hover:text-cyan-300">
+              TIMELINE
             </a>
             <a href="#contact" className="hover:text-cyan-300">
               CONTACT
@@ -835,8 +835,8 @@ function PortfolioMain() {
           <h2 className="mt-2 text-xl font-semibold">スキルセット</h2>
           <p className="mt-2 max-w-2xl text-xs leading-relaxed text-slate-300">
             個人開発が完結することを意識して、フロントエンド〜バックエンド〜インフラまで
-            幅広く触ってきました。レーダーチャートは自己評価（★5 相当で
-            100%）です。
+            幅広く触ってきました。個人開発と案件で使用した技術に関しての自己評価（★5 相当で
+            100%）となります。
           </p>
 
           <div className="mt-6 grid gap-4 md:grid-cols-3">
@@ -852,7 +852,7 @@ function PortfolioMain() {
             />
             <SkillRadarCard
               title="DevOps / Infra"
-              subtitle="個人開発を本番運用するための下回り。"
+              subtitle="本番運用するための下回り。"
               skills={devopsSkills}
             />
           </div>
@@ -865,8 +865,8 @@ function PortfolioMain() {
           </p>
           <h2 className="mt-2 text-xl font-semibold">これまでの歩み</h2>
           <p className="mt-2 max-w-2xl text-xs leading-relaxed text-slate-300">
-            「なぜこの分野でやっていきたいのか」という背景も含めて、
-            簡単にまとめています。詳細な職務経歴は別途資料でご用意しています。
+            これまでの人生でITエンジニアとして歩んできた道のりを
+            簡単にまとめています。詳細な職務経歴は別途資料でご用意します。
           </p>
 
           <div className="mt-6 space-y-5 border-l border-slate-700/80 pl-4 text-xs">
