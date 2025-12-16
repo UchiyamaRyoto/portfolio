@@ -152,7 +152,7 @@ const TIMELINE = [
   {
     period: "2021 ~ 2025 Webエンジニアとしての経験",
     title: "専門学校での学びと企業での実務経験",
-    body: "専門学校でSEを専攻し、Web技術に関する技術を中心に学ぶ。IT企業でのアルバイトを2年間行い、実務経験を積み、チーム開発やプロジェクト管理のスキルも習得。",
+    body: "専門学校でSEを専攻し、Web技術に関する技術を中心に学ぶ。IT企業でのアルバイトを1.5年間行い、実務経験を積み、チーム開発やプロジェクト管理のスキルも習得。",
   },
   {
     period: "2025 ~ 現在",
@@ -225,7 +225,7 @@ const WORKS: WorkItem[] = [
     backText:
       "翻訳を通しての英語学習をスムーズに行いたいと考え開発。AIを活用したフィードバックやFSRSアルゴリズムによる反復学習機能を実装。",
     footerLabel: "サイトを見る",
-    footerHref: "https://develop.d19hc3rqpf44ck.amplifyapp.com/",
+    footerHref: "https://www.transpiece.com",
     footerIcon: "external",
     footerClassName: "text-cyan-300",
   },
